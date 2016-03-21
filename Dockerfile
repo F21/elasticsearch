@@ -1,7 +1,7 @@
 FROM f21global/java:8
 MAINTAINER Francis Chuang <francis.chuang@boostport.com>
 
-ENV ELASTICSEARCH_VER 2.1.1
+ENV ELASTICSEARCH_VER 2.2.1
 
 RUN apt-get update \
     && apt-get install -y ca-certificates wget \
